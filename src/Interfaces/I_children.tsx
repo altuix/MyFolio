@@ -1,4 +1,3 @@
 export interface I_Children {
-  children: JSX.Element[] | JSX.Element
+    children: JSX.Element[] | JSX.Element
 }
-
