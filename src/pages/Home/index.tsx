@@ -28,7 +28,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='flex flex-wrap'>
+      <div className='flex flex-wrap mb-8'>
         <ProjectBox></ProjectBox>
         <ProjectBox></ProjectBox>
         <ProjectBox></ProjectBox>
@@ -37,7 +37,7 @@ const Home = () => {
 
       </div>
 
-      <div className='flex gap-10'>
+      <div className='flex gap-10 mb-8'>
         <ArticleRectangle></ArticleRectangle>
         <WorkBox></WorkBox>
       </div>

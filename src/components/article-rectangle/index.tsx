@@ -6,7 +6,7 @@ function ArticleRectangle() {
 
 
     <div className="cursor-pointer all-articles-article  box-border overflow-hidden w-full">
-      <div className="article font-primary group rounded-md h-full mix-blend-normal opacity-70 hover:bg-[#fafafa] hover:opacity-100 hover:ease-in-out duration-300">
+      <div className="article font-primary group rounded-md h-full mix-blend-normal opacity-70 hover:bg-[#fafafa] hover:opacity-100 hover:ease-in-out duration-300  hover:scale-105">
         <a >
           <div className="article-container p-7 h-60 flex flex-col gap-2">
 
