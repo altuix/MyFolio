@@ -194,10 +194,15 @@ code {
 
 ::-webkit-scrollbar {
     width: 10px;
+    background-color: #F5F5F5;
+
 }
+
 
 ::-webkit-scrollbar-track {
     background-color: #f1f1f1;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
 }
 
 ::-webkit-scrollbar-thumb {
@@ -206,5 +211,5 @@ code {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(14, 14, 14);
 }
