@@ -1,6 +1,7 @@
 import React, { Children } from 'react'
 import Navbar from '../components/common/navbar'
 import { I_Children } from '../Interfaces/I_children'
+import Footer from './Footer'
 
 function Layout(props: I_Children) {
     return (
@@ -14,7 +15,7 @@ function Layout(props: I_Children) {
                         <div className="pt-20 px-8 lg:pt-40 sm:px-12">
                             {props.children}
                         </div>
-                        <div className="w-full bg-slate-500 h-16 border-t-4 border-indigo-200"></div>
+                        <Footer />
                     </div>
                 </div>
             </div>

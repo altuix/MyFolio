@@ -5,6 +5,7 @@ import './style.css'
 import ProjectBox from '../../components/project-box'
 import ArticleRectangle from '../../components/article-rectangle'
 import WorkBox from '../../components/work-box'
+import TechStack from '../../components/tech-stack'
 
 const Home = () => {
     const [scroll, setScroll] = useState(false)
@@ -48,6 +49,8 @@ const Home = () => {
                     />
                 </div>
             </div>
+
+            <TechStack />
 
             <div className="flex flex-wrap mb-8">
                 <ProjectBox></ProjectBox>
