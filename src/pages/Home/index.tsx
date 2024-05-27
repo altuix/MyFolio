@@ -6,7 +6,7 @@ import ProjectBox from '../../components/project-box'
 import ArticleRectangle from '../../components/article-rectangle'
 import WorkBox from '../../components/work-box'
 import TechStack from '../../components/tech-stack'
-import { deviantart, github } from '../../assets/social'
+import { deviantart, github, linkedin } from '../../assets/social'
 
 const Home = () => {
     const [scroll, setScroll] = useState(false)
@@ -44,6 +44,7 @@ const Home = () => {
                     </p>
                     <div className="flex mt-5 opacity-70 gap-6 items-center justify-center sm:justify-start">
                         <img className="w-auto h-8" src={github} />
+                        <img className="w-auto h-8" src={linkedin} />
                         <img className="w-auto h-8" src={deviantart} />
                     </div>
                 </div>
