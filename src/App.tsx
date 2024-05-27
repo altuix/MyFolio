@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/Home'
 import Layout from './layouts/Layout'
+import About from './pages/About'
 
 function App() {
     return (
         <Layout>
-            <Home />
+            {/* <Home /> */}
+            <About />
         </Layout>
     )
 }
