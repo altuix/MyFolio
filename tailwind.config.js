@@ -3,15 +3,15 @@ export default {
   theme: {
     extend: {
       animation: {
-        shine: "shine 1s",
+        shine: 'shine 1s'
       },
       keyframes: {
         shine: {
-          "100%": { left: "125%" },
-        },
+          '100%': { left: '125%' }
+        }
       },
       screens: {
-        'hover-hover': { 'raw': '(hover: hover)' },
+        'hover-hover': { raw: '(hover: hover)' }
       },
       colors: {
         transparent: 'transparent',
@@ -21,14 +21,14 @@ export default {
         secondary: '#65656d',
         'tertiary-color': '#acacb4',
         'quaternary-color': '#e4e4e7',
-        'link-color': '#14b8a6',
+        'link-color': '#14b8a6'
       },
       fontFamily: {
         primary: ['Heebo', 'sans-serif'],
-        secondary: ['Roboto', 'sans-serif'],
+        secondary: ['Roboto', 'sans-serif']
         // Add more custom font families as needed
-      },
-    },
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }

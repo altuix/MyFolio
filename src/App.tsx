@@ -5,14 +5,16 @@ import './App.css'
 import Home from './pages/Home'
 import Layout from './layouts/Layout'
 import About from './pages/About'
+import Projects from './pages/Projects'
 
 function App() {
-    return (
-        <Layout>
-            {/* <Home /> */}
-            <About />
-        </Layout>
-    )
+  return (
+    <Layout>
+      {/* <Home /> */}
+      {/* <About /> */}
+      <Projects />
+    </Layout>
+  )
 }
 
 export default App

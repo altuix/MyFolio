@@ -4,23 +4,20 @@ import { I_Children } from '../Interfaces/I_children'
 import Footer from './Footer'
 
 function Layout(props: I_Children) {
-    return (
-        <div className="flex w-full  justify-center ">
-            <div className="flex justify-center relative ">
-                <div className="flex w-full  md:max-w-7xl relative ">
-                    <div className="w-full bg-white ring-1 ring-zinc-100 shadow-2xl flex flex-col h-[100%] sm:h-[100vh]">
-                       
-                        <Navbar />
+  return (
+    <div className='flex w-full  justify-center '>
+      <div className='relative flex justify-center '>
+        <div className='relative flex  w-full md:max-w-7xl '>
+          <div className='flex h-[100%] w-full flex-col bg-white shadow-2xl ring-1 ring-zinc-100  lg:w-[100vw] lg:h-[100vh]'>
+            <Navbar />
 
-                        <div className="pt-20 px-8 lg:pt-40 sm:px-12 mb-8">
-                            {props.children}
-                        </div>
-                        <Footer />
-                    </div>
-                </div>
-            </div>
+            <div className='mb-8 px-8 pt-20 sm:px-12 lg:pt-40'>{props.children}</div>
+            <Footer />
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  )
 }
 
 export default Layout
