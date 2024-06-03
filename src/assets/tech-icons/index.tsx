@@ -9,4 +9,5 @@ import sass from './sass.svg'
 import tailwind from './tailwindcss-icon.svg'
 import tsx from './typescript-icon.svg'
 
-export { apollo, css, html, js, jquery, nodejs, redux, sass, tailwind, tsx }
+
+export default Object.freeze([ apollo, css, html, js, jquery, nodejs, redux, sass, tailwind, tsx ]);

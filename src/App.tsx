@@ -10,9 +10,9 @@ import Projects from './pages/Projects'
 function App() {
   return (
     <Layout>
-      {/* <Home /> */}
+      <Home />
       {/* <About /> */}
-      <Projects />
+      {/* <Projects /> */}
     </Layout>
   )
 }
