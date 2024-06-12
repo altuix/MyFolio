@@ -1,8 +1,10 @@
 let AboutMd = `
 ![screenshot](src/assets/cup.jpg)
-# About Altuğ Gökoğlu
+# About Me
 
 Hello! I'm Altuğ Gökoğlu, a dedicated and experienced Web Developer with a rich history of over nine years in smart TV application and web development. My passion for coding and problem-solving drives me to write clean, efficient code and stay abreast of the latest technological advancements.
+
+I am currently the Frontend Team Leader, where I lead a talented team in developing cutting-edge smart TV apps and websites. My role involves not only coding but also overseeing project management, ensuring quality control, and fostering innovation within the team. Some of the notable projects I've spearheaded include the development of D-SMART GO, EXXEN, and ROYA smart TV apps, as well as the JRTV website using React.js.
 
 ## Professional Experience
 
