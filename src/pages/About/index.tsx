@@ -23,9 +23,9 @@ const About = () => {
        
       </div>
       <div className='mt-5 flex items-center justify-center gap-6 opacity-70 sm:justify-start'>
-        <img className='h-8 w-auto' src={github} />
-        <img className='h-8 w-auto' src={linkedin} />
-        <img className='h-8 w-auto' src={deviantart} />
+        <img loading='lazy' className='h-8 w-auto' src={github} />
+        <img  loading='lazy' className='h-8 w-auto' src={linkedin} />
+        <img loading='lazy' className='h-8 w-auto' src={deviantart} />
       </div>
     </>
   )

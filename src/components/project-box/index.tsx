@@ -8,7 +8,7 @@ function ProjectBox() {
         <a>
           <div className='project-container flex h-72 flex-col p-7'>
             <div className='project-logo w-8'>
-              <img
+              <img loading='lazy'
                 className='w-full'
                 src='https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png'
                 alt='logo'

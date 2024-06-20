@@ -11,7 +11,7 @@ function ProjectCard() {
       >
         <div className='project-container  flex h-full flex-col'>
           <div className='project-logo '>
-            <img
+            <img loading='lazy'
               className='max-h-[20vh] w-full rounded-lg'
               src='https://freefrontend.com/assets/img/css-cards/2023-la-saveur-french-menu-cards.jpg'
               alt='logo'

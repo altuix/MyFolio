@@ -37,7 +37,7 @@ const Contact = () => {
 
               <a className='social' href='https://twitter.com/' target='_blank' rel='noreferrer'>
                 <div className='social-icon text-primary' >
-                  <img src={twitter} />
+                  <img loading='lazy' src={twitter} />
 
                 </div>
                 <div className='social-text '>Follow on Twitter</div>
@@ -46,7 +46,7 @@ const Contact = () => {
 
               <a className='social' href='https://github.com/' target='_blank' rel='noreferrer'>
                 <div className='social-icon'>
-                  <img src={github} />
+                  <img loading='lazy' src={github} />
 
                 </div>
                 <div className='social-text'>Follow on GitHub</div>
@@ -55,7 +55,7 @@ const Contact = () => {
 
               <a className='social' href='https://linkedin.com/' target='_blank' rel='noreferrer'>
                 <div className='social-icon'>
-                  <img src={linkedin} />
+                  <img loading='lazy' src={linkedin} />
 
                 </div>
                 <div className='social-text'>Follow on LinkedIn</div>

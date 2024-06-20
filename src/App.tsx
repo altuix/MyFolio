@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -13,16 +13,20 @@ import Contact from './pages/Contact'
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route index element={<Home />}></Route>
-          <Route path='/about' element={<About />}></Route>
-          <Route path='/projects' element={<Projects />}></Route>
-          <Route path='/articles' element={<Articles />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-          <Route path='*' element={<Home />} />
-        </Route>
-      </Routes>
+     
+        <Routes>
+
+          <Route path='/' element={ <Layout />}>
+            <Route index element={<Home />}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/projects' element={<Projects />}></Route>
+            <Route path='/articles' element={<Articles />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
+            <Route path='*' element={<Home />} />
+          </Route>
+
+        </Routes>
+ 
     </BrowserRouter>
 
     // <Layout>
