@@ -1,5 +1,8 @@
 import './style.css'
 import { Typewriter } from 'react-simple-typewriter'
+import { deviantart, github, linkedin, twitter, } from '../../assets/social'
+
+
 
 const Contact = () => {
   const handleType = (count: number) => {
@@ -21,7 +24,7 @@ const Contact = () => {
           <h1 className=''>
             Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and
             suggestions. If you have a specific question or comment, please feel free to email me directly at
-            altuggokoglu@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me
+            <a href='mailto:altuggokoglu@gmail.com' target='_blank' rel='noreferrer' className='font-bold'> altuggokoglu@gmail.com.</a> I make an effort to respond to all messages within 24 hours, although it may take me
             longer during busy periods. Alternatively, you can use the contact form on my website to get in touch.
             Simply fill out the required fields and I'll get back to you as soon as possible. Finally, if you prefer to
             connect on social media. I post regular updates and engage with my followers there, so don't hesitate to
@@ -29,50 +32,54 @@ const Contact = () => {
           </h1>
         </div>
         <div className='social-container flex flex-col mt-20'>
-          <div className='contact-socials items-center justify-start flex'>
-            <div className='socials'>
-              <div className='social'>
-                <a href='https://twitter.com/' target='_blank' rel='noreferrer'>
-                  <div className='social-icon text-primary' >
-                  
-                  </div>
-                  <div className='social-text text-secondary'>Follow on Twitter</div>
-                </a>
-              </div>
-              <div className='social'>
-                <a href='https://github.com/' target='_blank' rel='noreferrer'>
+          <div className='contact-socials items-center justify-start flex '>
+            <div className='socials flex flex-col'>
+
+              <a className='social' href='https://twitter.com/' target='_blank' rel='noreferrer'>
+                <div className='social-icon text-primary' >
+                  <img src={twitter} />
+
+                </div>
+                <div className='social-text '>Follow on Twitter</div>
+              </a>
+
+
+              <a className='social' href='https://github.com/' target='_blank' rel='noreferrer'>
+                <div className='social-icon'>
+                  <img src={github} />
+
+                </div>
+                <div className='social-text'>Follow on GitHub</div>
+              </a>
+
+
+              <a className='social' href='https://linkedin.com/' target='_blank' rel='noreferrer'>
+                <div className='social-icon'>
+                  <img src={linkedin} />
+
+                </div>
+                <div className='social-text'>Follow on LinkedIn</div>
+              </a>
+
+
+              {/* <a className='social' href='https://www.deviantart.com/' target='_blank' rel='noreferrer'>
                   <div className='social-icon'>
-                
-                  </div>
-                  <div className='social-text'>Follow on GitHub</div>
-                </a>
-              </div>
-              <div className='social'>
-                <a href='https://linkedin.com/' target='_blank' rel='noreferrer'>
-                  <div className='social-icon'>
-            
-                  </div>
-                  <div className='social-text'>Follow on LinkedIn</div>
-                </a>
-              </div>
-              <div className='social'>
-                <a href='https://instagram.com/' target='_blank' rel='noreferrer'>
-                  <div className='social-icon'>
-                  
+                    <img   src={deviantart} />
+
                   </div>
                   <div className='social-text'>Follow on Instagram</div>
+                </a> */}
+
+
+              <div className='email-wrapper mt-9'>
+                <a href='mailto:altuggokoglu@gmail.com' target='_blank' rel='noreferrer'>
+                  <div className='social-icon'>
+
+                  </div>
+                  <div className='social-text'>altuggokoglu@gmail.com</div>
                 </a>
               </div>
-              <div className='email'>
-                <div className='email-wrapper'>
-                  <a href='mailto:mail@tharindu.dev' target='_blank' rel='noreferrer'>
-                    <div className='social-icon'>
-                    
-                    </div>
-                    <div className='social-text'>mail@tharindu.dev</div>
-                  </a>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
