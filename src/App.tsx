@@ -8,6 +8,7 @@ import About from './pages/About'
 import Projects from './pages/Projects'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Articles from './pages/Articles'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' element={<About />}></Route>
           <Route path='/projects' element={<Projects />}></Route>
           <Route path='/articles' element={<Articles />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
           <Route path='*' element={<Home />} />
         </Route>
       </Routes>
